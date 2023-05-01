@@ -1,17 +1,24 @@
-.page {
-    width:650px;
+body{
+    background-color: dimgrey;
 }
-.header>.title, .header>.subtitle{
+.page {
+    width:800px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+header>.title, header>.subtitle{
     background: orange;
     color:white;
+    text-align: center;
 }
-.header>.title {
+header>.title {
     font-size:50px;
     margin-bottom:0;
     margin-left:0;
     margin-right:0;
 }
-.header>.subtitle{
+header>.subtitle{
     margin-top:0;
     margin-left:0;
     margin-right:0;
@@ -19,10 +26,12 @@
     padding-top:20px;
     font-size:22px;
 }
-.header>.lettername {
+header>.lettername {
     margin-top:0;
     text-align:center;
     font-size:12px;
+    margin-bottom: 0;
+    background: rgb(189, 189, 189);
 }
 section{
     overflow:hidden;
@@ -38,6 +47,7 @@ section{
 .left>h3 {
     color:white;
     background: red;
+    margin-top: 0;
 }
 .left li {
     color:black;
@@ -46,10 +56,11 @@ section{
     color:rosybrown;
 }
 .content {
-    width:320px;
+    width:450px;
     padding:15px;
     margin:0;
     background: lightgrey;
+    float: left;
 }
 .content .title{
     background: navy;
@@ -66,18 +77,21 @@ section{
 }
 .right .line1 {
     color:lightgray;
-    font-size:25px;
+    font-size:18px;
     text-decoration: underline;
+    list-style: none;
 }
 .right .line2 {
     color:orange;
-    font-size:25px;
+    font-size:18px;
     text-decoration: underline;
+    list-style: none;
 }
 .right .line3 {
     color:brown;  
-    font-size:25px;  
+    font-size:18px;  
     text-decoration: underline;
+    list-style: none;
 }
 .right .ad .type {
     text-decoration: underline;
@@ -90,4 +104,5 @@ section{
     background: navy;
     color:white;
     font-size:12px;
+    text-align: center;
 }
